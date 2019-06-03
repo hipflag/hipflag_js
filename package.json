@@ -1,0 +1,39 @@
+{
+  "name": "hipflag",
+  "version": "1.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Hipflag REST API client for Node.js",
+  "keywords": [
+    "hipflag",
+    "feature-flags",
+    "feature-toggles",
+    "rest",
+    "api-client"
+  ],
+  "author": "Hipflag",
+  "repository": "https://github.com/hipflag/hipflag_js",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "jest": "^24.8.0",
+    "webpack": "^4.0.0",
+    "webpack-bundle-analyzer": "^3.0.0",
+    "webpack-cli": "^3.0.0"
+  },
+  "scripts": {
+    "build": "babel -d lib",
+    "test": "jest --watch"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}
